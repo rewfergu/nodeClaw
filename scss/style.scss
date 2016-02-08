@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+h2 {
+  font-size: 1em;
+}
+
+#app {
+  padding: 50px 20px;
+}
+
+input[type="range"] {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 35px;  
+}
+
+.display {
+  background: #ccc;
+  padding: 1em;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.3);
+  width: 200px;
+  margin: 0 auto;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
